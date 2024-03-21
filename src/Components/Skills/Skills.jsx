@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Skills.module.css'
-import { FaSquareJs , FaReact , FaSass , FaGitAlt , FaNode } from 'react-icons/fa6'
+import { FaSquareJs , FaReact ,  FaNode , FaHtml5 ,  FaPhp , FaGithub} from 'react-icons/fa6'
 function Skills() {
   return (
     <div className={styles.skills_con}>
@@ -10,10 +10,16 @@ function Skills() {
                 <FaSquareJs />
             </li>
             <li>
+                <FaHtml5 />
+            </li>
+            <li>
                 <FaReact />
             </li>
             <li>
-                <FaGitAlt />
+                <FaPhp />
+            </li>
+            <li>
+                <FaGithub />
             </li>
             <li>
                 <FaNode />

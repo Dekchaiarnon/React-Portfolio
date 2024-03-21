@@ -1,8 +1,9 @@
 footer{
     height: 60px;
-    background-color: #fff;
+    background: radial-gradient(circle, #f0f8ff, #f0f8ff);
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    color: black;
 }

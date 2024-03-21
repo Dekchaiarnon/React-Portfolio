@@ -11,21 +11,21 @@ function Services() {
           <FaCode />
           <h4>Web Development</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni recusandae enim consectetur sapiente necessitatibus neque eos ipsa ullam minima nulla.
+          Develop web applications using React + Vite, JavaScript and PHP.
           </p>
         </div>
         <div className={styles.services_items}>
           <FaPaintbrush />
           <h4>Web Design</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni recusandae enim consectetur sapiente necessitatibus neque eos ipsa ullam minima nulla.
+          Utilize design tools for web design such as Adobe XD and Figma.
           </p>
         </div>
         <div className={styles.services_items}>
           <FaDesktop />
           <h4>Front-end Consulting</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni recusandae enim consectetur sapiente necessitatibus neque eos ipsa ullam minima nulla.
+          Understand the principles, processes, or services related to the development and design of the Front-end portion of websites or applications.
           </p>
         </div>
       </div>

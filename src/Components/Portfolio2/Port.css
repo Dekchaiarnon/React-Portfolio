@@ -1,0 +1,38 @@
+.images-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(calc(33.33% - 0.666rem), 1fr)); /* แสดง 3 หน้าในบรรทัดเดียว */
+  gap: 1rem;
+  padding: 20px; /* เพิ่มช่องว่างด้านใน */
+  border-radius: 10px; /* เพิ่มเส้นขอบ */
+}
+
+.image {
+  width: 80%; /* ปรับขนาดภาพให้เต็มความกว้าง */
+  height: 20rem;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาใต้รูปภาพ */
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease; /* เพิ่ม transition เมื่อโฮเวอร์ภาพ */
+}
+
+.image:hover img {
+  transform: scale(1.05); /* เพิ่มการขยายภาพเมื่อโฮเวอร์ */
+}
+
+.port_title{
+  margin-top: 45px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: black; /* เปลี่ยนสีข้อความ */
+}

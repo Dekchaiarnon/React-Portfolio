@@ -20,7 +20,7 @@
 
             & img{
                 width: 300px;
-                height: 300px;
+                height: 600px;
                 border-radius: 20px;
                 object-fit: cover;
             }
@@ -47,6 +47,7 @@
 
         & .port_items{
             width: 100%;
+            
             
             & img{
                 width: 100%;

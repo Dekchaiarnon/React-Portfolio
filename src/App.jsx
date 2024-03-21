@@ -10,6 +10,7 @@ import Testimonials from './Components/Testimonials/Testimonials'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import AnimatedCursor from 'react-animated-cursor'
+import Portfolio2 from './Components/Portfolio2/Portfolio.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -39,14 +40,15 @@ function App() {
       ]}
     />
       <Navbar />
-      <Hero />
+      <Hero /> 
       <Skills />
       <Services />
-      <Portfolio />
+      <Portfolio2 />
       <Number />
       <Testimonials />
       <Contact />
       <Footer />
+      
 
     </>
   )

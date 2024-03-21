@@ -15,11 +15,13 @@ function Hero() {
                         <span style={{marginRight: '10px'}}> I'm a </span>
                         <TypeAnimation
                                 sequence={[
-                                    // Same substring at the start will only be typed out once, initially
+                                    
                                     ' Front-end Developer',
-                                    1000, // wait 1s before replacing "Mice" with "Hamsters"
+                                    2000, 
                                     'Web Developer',
-                                    1000,
+                                    2000,
+                                    'Mobile Developer',
+                                    2000,
 
                                 ]}
                                 speed={50}
@@ -28,12 +30,12 @@ function Hero() {
                        
                     </p>
                     <p className={styles.text_4}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga fugiat commodi <br /> quas cupiditate minus dolore nulla eos accusantium labore explicabo.
+                    Hello, my name is Tum. I am currently looking for a job as a Front-end developer.<br /> My current skills include front-end development for both web applications and mobile applications, mainly using React, PHP, and React Native.<br /> I am also interested in Back-end development, although I am not yet highly proficient in it. <br />I am currently living in Khon Kaen and would prefer a job that is either hybrid or work from home. <br />I expect a salary of 20,000 Baht. Thank you.
                     </p>
                     <ul className={styles.hero_social}>
-                        <li><a href='#'> <FaGithub /></a></li>
-                        <li><a href='#'> <FaLinkedinIn /></a></li>
-                        <li><a href='#'> <FaFacebookF /></a></li>
+                        <li><a href='https://github.com/Dekchaiarnon/' target='blank'> <FaGithub /></a></li>
+                        <li><a href='https://www.linkedin.com/in/arnon-mangkai-61b0342bb/' target='blank'> <FaLinkedinIn /></a></li>
+                        <li><a href='https://web.facebook.com/profile.php?id=100010717453919' target='blank'> <FaFacebookF /></a></li>
                         
                     </ul>
                 </div>

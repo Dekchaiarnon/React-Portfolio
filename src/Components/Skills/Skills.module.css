@@ -1,12 +1,13 @@
 .skills_con{
     height: 300px;
-    background-color: #0085FF;
+    background-color: #005A9C;
     text-align: center;
     color: #fff;
     overflow: hidden;
 
     & .skills_title{
         margin-top: 40px;
+        font-size: 25px;
     }
 
     & .skills_list{
